@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <style type="text/css">
+        .data {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .data th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4CAF50;
+            color: white;
+        }
+        .data td, .data th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+{% for table in tables %}
+    {{table|safe}}
+{% endfor %}
+
+</body>
+</html>

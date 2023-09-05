@@ -8,3 +8,9 @@
 json 형태 원본 저장 , 필터링된후 mysql 저장
 
 app.py 실행 -> 로컬접속
+
+
+
+mysql 유저도 수정하셔야함
+
+host, user, password, database
